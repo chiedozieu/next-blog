@@ -1,95 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link  from "next/link"
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    <div>
+    <Link href='/'>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quo sunt, esse corrupti nisi quos maxime necessitatibus nostrum voluptates alias, veritatis perferendis maiores, fuga facilis repellat quis eum asperiores autem?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore deleniti maxime natus nesciunt a ea non odio aut quae repudiandae, veniam molestiae dolorum fuga ad molestias, quis ipsum! Nemo totam, magni pariatur odio quibusdam molestias necessitatibus nesciunt veritatis dolor hic rem, dolores reiciendis quod. Iste, itaque! Neque saepe incidunt commodi magni at assumenda vitae quos optio sed delectus distinctio, vel quas, officia, ad ea cumque placeat impedit nulla! Quibusdam, expedita facere. Consequatur culpa mollitia, cupiditate sit obcaecati quae dolores, facere illo porro atque similique officiis impedit. Minima eos dignissimos natus totam enim alias eaque, suscipit autem accusamus voluptas blanditiis nobis facere dolorum vel repellat soluta, necessitatibus fugit maiores? Corporis suscipit ipsa eius accusamus repellat! Ipsum culpa eveniet molestias quam consequuntur explicabo possimus error, doloremque ullam dignissimos temporibus tempora nobis porro rerum eos aliquam aperiam voluptatum est saepe doloribus quis iste expedita suscipit? Aspernatur debitis, aut totam expedita dolore reiciendis at nemo tempore nisi velit iste, eius ratione, nulla numquam asperiores. Voluptate repellat quos ipsum voluptatum incidunt aspernatur? Nam labore reprehenderit molestiae explicabo distinctio nihil, ullam enim tempore nulla sapiente ad esse, laboriosam architecto possimus temporibus fugit repellendus at, expedita autem adipisci voluptatibus. Neque, sit. Totam debitis error iure ullam eligendi. Dignissimos dolores, neque repudiandae fugiat doloribus nisi dolor harum aperiam atque distinctio nobis voluptatum enim exercitationem consequatur quas optio odit modi deserunt ducimus excepturi est. Quia repudiandae eveniet ex ipsa alias. Illum neque necessitatibus sint explicabo eligendi commodi vitae dolores maiores, itaque quos tempore sequi excepturi. Quo, aliquid fuga voluptate neque eum sint molestias, consequatur nemo voluptatum ipsum illo placeat tempora! Suscipit repudiandae nesciunt veniam iure, rerum explicabo laborum facere voluptate delectus maiores error at placeat quas tempora nemo. Placeat fuga explicabo officia sunt reprehenderit adipisci. Ad amet soluta error temporibus adipisci dolor tempore voluptas vero, laudantium placeat expedita, nesciunt explicabo dolorem a veniam sunt dicta. Quos veniam commodi quae nulla odit, quisquam quam voluptatem blanditiis est corrupti perspiciatis, modi, dolor eos corporis possimus quod illo atque! Alias nostrum unde hic maxime sed obcaecati ratione pariatur minima repellendus ea consequatur tenetur, fuga perspiciatis voluptatibus, porro aut at veritatis beatae. Placeat cupiditate, provident corporis asperiores temporibus explicabo quam autem aliquam. Iusto, suscipit consectetur possimus tempore est minima, dicta non error odio deserunt illum consequuntur atque inventore, nesciunt voluptate distinctio vero reprehenderit architecto tenetur aperiam. Autem nihil nemo voluptatem qui. Officiis ad dignissimos animi libero necessitatibus iure quasi temporibus dicta tempore enim fuga vero minima sunt unde sequi cumque corrupti iusto excepturi, voluptatum optio. Voluptas fugit ab expedita, aliquid architecto perferendis laudantium suscipit ipsam veniam illo maiores voluptate, neque hic quaerat, explicabo totam quae officiis nisi quo sit aperiam. Harum consequatur dolore iusto, distinctio corrupti et, quos sint, qui ab illum doloremque neque laudantium nesciunt inventore voluptas quidem. Enim voluptatem rem recusandae ea! Reiciendis laboriosam natus consequatur explicabo suscipit impedit doloremque quasi? Consequuntur provident illo, enim maxime accusamus, nemo maiores commodi mollitia doloremque id at, ut non aut unde tempore vero quia consequatur corporis vitae. Ducimus mollitia officiis magni placeat nemo, distinctio libero at commodi dolores, beatae aliquam molestias facilis laboriosam culpa nesciunt voluptas eum iusto facere, voluptate debitis explicabo odit. Corporis tenetur sit animi doloremque ipsam placeat expedita explicabo itaque voluptas aliquid adipisci dolore totam voluptatem recusandae fugit cum similique, consequatur doloribus eos vero, ex porro odio. Mollitia soluta obcaecati ad nobis eius dicta consectetur facilis eligendi nisi odio, maiores itaque aut rerum. Ex quia vitae, sequi laborum, possimus harum dolores aut esse explicabo delectus, odit tempore ipsum accusamus dolorem ea officiis error! Quaerat hic quae voluptates est, dolorem ut aliquid reprehenderit mollitia itaque totam porro sunt animi officia non quisquam.</p>
+    </Link>
+    </div>
+  )
 }
