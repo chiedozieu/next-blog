@@ -1,6 +1,6 @@
  import styles from './featured.module.css'
  
- const Navbar = () => {
+ const Featured = () => {
    return (
      <div className={styles.container}>
        Featured
