@@ -5,12 +5,12 @@
  const Featured = () => {
    return (
      <div className={styles.container}>
-       <h className={styles.title}>
-       <b>Shape Your World! </b> Top Stories, Breaking News...
-       </h>
+       <p className={styles.title}>
+         <b>Shape Your World! </b> Top Stories, Breaking News...
+       </p>
        <div className={styles.post}>
           <div className={styles.imgContainer}>
-            <Image src={beach} alt='' fill className={styles.Image} />
+            <Image src={beach} alt='' className={styles.Image} priority={2} />
           </div>
           <div className={styles.textContainer}>
               <h1 className={styles.postTitle}>Your News, Your Way. Breaking News, Headlines, and More</h1>

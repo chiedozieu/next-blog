@@ -5,10 +5,10 @@ import { createContext, useEffect, useState } from "react";
 
 
 export const ThemeContext = createContext();
-
+ 
 
 const getFromLocalStorage = () => {
-    if (typeof window !== 'null') {
+    if (typeof window !== 'undefined') {
         const value = localStorage.getItem('theme');
         return value || 'light';
     }
@@ -23,6 +23,6 @@ export const ThemeContextProvider = ({children}) => {
     }
     useEffect(() =>{
         localStorage.setItem('theme', theme)
-    },[theme]);
+    }, [theme]);
     return <ThemeContext.Provider value={{theme, toggle}}>{children}</ThemeContext.Provider>;
 };
